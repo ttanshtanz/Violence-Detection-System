@@ -237,4 +237,4 @@ Used for:
 - GPU optimization
 - Cloud deployment
 
-> Note: Due to hardware and system memory limitations, the current implementation was trained on a subset of approximately 400 videos for proof-of-concept and real-time testing purposes.
+> Note: Due to hardware and system memory limitations, the current implementation was trained on a subset of approximately 200 videos for proof-of-concept and real-time testing purposes.
