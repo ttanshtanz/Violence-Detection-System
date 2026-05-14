@@ -13,7 +13,6 @@ The system detects violent activities from video streams, draws bounding boxes a
 - CNN + LSTM temporal action recognition
 - Bounding box visualization
 - Alarm triggering system
-- Webcam and video file support
 - Lightweight implementation
 
 ---
@@ -25,9 +24,8 @@ The system detects violent activities from video streams, draws bounding boxes a
 | Deep Learning | TensorFlow / Keras |
 | Object Detection | YOLOv8 |
 | Video Processing | OpenCV |
-| Numerical Computing | NumPy |
-| Alarm System | winsound |
-| Dataset | Real Life Violence Dataset |
+| Alarm System | Custom WAV Audio Alert/winsound |
+| Dataset | Kaggle - Real Life Violence Dataset |
 
 ---
 
@@ -231,23 +229,12 @@ Used for:
 
 # Future Improvements
 
-- Person tracking
-- Pose estimation
-- Optical flow analysis
-- MoViNet / SlowFast architectures
+- Train the model on the complete dataset instead of a limited subset
+- Improve accuracy by increasing training epochs and sequence length
+- Use higher-resolution frame inputs for better feature extraction
+- Reduce false positives using advanced action recognition models
 - FastAPI integration
 - GPU optimization
 - Cloud deployment
 
----
-
-# Interview Concepts Covered
-
-- Computer Vision
-- Deep Learning
-- Action Recognition
-- Transfer Learning
-- Temporal Sequence Modeling
-- Real-Time Video Analytics
-- Object Detection
-- CNN-LSTM Architecture
+> Note: Due to hardware and system memory limitations, the current implementation was trained on a subset of approximately 200 videos for proof-of-concept and real-time testing purposes.
